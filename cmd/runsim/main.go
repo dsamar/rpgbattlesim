@@ -1,7 +1,7 @@
 package main
 
-import "github.com/dsamar/rpgbattlesim/pkg/helloworld"
+import "github.com/dsamar/rpgbattlesim/pkg/simulation"
 
 func main() {
-	helloworld.SayHello()
+	simulation.RunSimulation()
 }
